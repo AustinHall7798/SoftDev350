@@ -27,7 +27,6 @@ public class Main {
         Maze = new Maze(); //So we have Access to Data
         MainMenu();
         Scan.close();
-
     }//end main method
 
     //Method to add questions to database within data program
@@ -317,7 +316,7 @@ public class Main {
     //Method to present main menu and
     //Goto either Database, or to the Game
 
-    private static void MainMenu(){
+    static void MainMenu(){
 
         String input;
 
@@ -572,7 +571,7 @@ public class Main {
                     QuitGame();
                     return;
                 default:
-                    valid = Maze.ChangeRooms(Integer.parseInt(input));
+                    //valid = Maze.ChangeRooms(Integer.parseInt(input));
                     if(!valid && Maze.CheckLoss(0,0, new ArrayList<Point2D>()))
                         LostGame();
                     NeedsSaved = true;

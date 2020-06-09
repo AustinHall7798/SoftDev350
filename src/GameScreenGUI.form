@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameScreenGUI">
+  <grid id="27dc6" binding="GamePanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="787" height="629"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <background color="-16777216"/>
+      <maximumSize width="2147483647" height="800"/>
+      <minimumSize width="500" height="500"/>
+      <opaque value="true"/>
+      <preferredSize width="500" height="500"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="396e8" binding="MazeGrid" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="200"/>
+            <preferred-size width="400" height="400"/>
+            <maximum-size width="500" height="500"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <name value="Maze"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ccd5a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5616e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e1745" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="350f8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="eb271" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6ede6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bbf4a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c3e0b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="df16f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="78418" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3ff2c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3eddc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="37c17" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="64154" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c5e41" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c254" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2950.PNG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d280c" class="javax.swing.JLabel" binding="X0Y2Bottom">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d37fb" class="javax.swing.JLabel" binding="X1Y2Bottom">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="279b8" class="javax.swing.JLabel" binding="X3Y2Bottom">
+            <constraints>
+              <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="76928" class="javax.swing.JLabel" binding="X3Y1Bottom">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f844f" class="javax.swing.JLabel" binding="X2Y1Bottom">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="29707" class="javax.swing.JLabel" binding="X1Y1Bottom">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5b88e" class="javax.swing.JLabel" binding="X0Y1Bottom">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c74b9" class="javax.swing.JLabel" binding="X0Y0Bottom">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="95a8d" class="javax.swing.JLabel" binding="X1Y0Bottom">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4d12e" class="javax.swing.JLabel" binding="X2Y0Bottom">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="202e8" class="javax.swing.JLabel" binding="X3Y0Bottom">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="396eb" class="javax.swing.JLabel" binding="RoomX0Y0">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e067b" class="javax.swing.JLabel" binding="X2Y2Bottom">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="OpenHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4212d" class="javax.swing.JLabel" binding="X0Y0Right">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="add2" class="javax.swing.JLabel" binding="X1Y0Right">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8c37f" class="javax.swing.JLabel" binding="X2Y0Right">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ac7cf" class="javax.swing.JLabel" binding="X2Y1Right">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ad5f0" class="javax.swing.JLabel" binding="X1Y1Right">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d6ae8" class="javax.swing.JLabel" binding="X0Y1Right">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e807a" class="javax.swing.JLabel" binding="X0Y2Right">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="69bad" class="javax.swing.JLabel" binding="X1Y2Right">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="da698" class="javax.swing.JLabel" binding="X2Y2Right">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7bbe9" class="javax.swing.JLabel" binding="X2Y3Right">
+            <constraints>
+              <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b0575" class="javax.swing.JLabel" binding="X1Y3Right">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="765a0" class="javax.swing.JLabel" binding="X0Y3Right">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="VerticalOpen.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9266c" class="javax.swing.JLabel" binding="RoomX1Y0">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="17a6e" class="javax.swing.JLabel" binding="RoomX2Y0">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4831e" class="javax.swing.JLabel" binding="RoomX3Y0">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="412ea" class="javax.swing.JLabel" binding="RoomX3Y1">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="eaecf" class="javax.swing.JLabel" binding="RoomX2Y1">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="66873" class="javax.swing.JLabel" binding="RoomX1Y1">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a9279" class="javax.swing.JLabel" binding="RoomX0Y1">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="94d60" class="javax.swing.JLabel" binding="RoomX0Y2">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a96c" class="javax.swing.JLabel" binding="RoomX1Y2">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="72537" class="javax.swing.JLabel" binding="RoomX2Y2">
+            <constraints>
+              <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="52527" class="javax.swing.JLabel" binding="RoomX3Y2">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a4717" class="javax.swing.JLabel" binding="RoomX3Y3">
+            <constraints>
+              <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ef2aa" class="javax.swing.JLabel" binding="RoomX2Y3">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="51f9b" class="javax.swing.JLabel" binding="RoomX1Y3">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="73b11" class="javax.swing.JLabel" binding="RoomX0Y3">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="57db2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2b23b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4a5cc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8ad89" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6eb01" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dade6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="96959" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="eace2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5e324" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="402bf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a54b7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9a27a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="800c2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="aa873" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="34cf1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="IMG_2949.JPG"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="60d58" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="fe3bc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="df1c8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d1035" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="446c9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="70f7c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="510c3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <icon value="WallHorizontal.png"/>
+              <iconTextGap value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93a46" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="60d75" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="32af6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="30" height="30"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <iconTextGap value="0"/>
+              <opaque value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="171cd" binding="ButtonPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="100" bottom="30" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <preferredSize width="175" height="100"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a4c2" class="javax.swing.JButton" binding="UP">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <font size="8"/>
+              <opaque value="true"/>
+              <preferredSize width="50" height="30"/>
+              <text value="UP"/>
+            </properties>
+          </component>
+          <component id="14f87" class="javax.swing.JButton" binding="RIGHT">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="1" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="8"/>
+              <opaque value="true"/>
+              <preferredSize width="50" height="30"/>
+              <text value="RIGHT"/>
+            </properties>
+          </component>
+          <component id="eccb2" class="javax.swing.JButton" binding="LEFT">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="37" height="30"/>
+                <maximum-size width="33" height="33"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="8"/>
+              <preferredSize width="50" height="30"/>
+              <text value="LEFT"/>
+            </properties>
+          </component>
+          <component id="a3f8c" class="javax.swing.JButton" binding="DOWN">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="48" height="30"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="8"/>
+              <preferredSize width="50" height="30"/>
+              <text value="DOWN"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="734d9" binding="AnswerAreaPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <minimumSize width="390" height="125"/>
+          <preferredSize width="395" height="125"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9abc4" class="javax.swing.JTextArea" binding="QuestionArea">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16777216"/>
+              <columns value="0"/>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <foreground color="-266"/>
+              <lineWrap value="true"/>
+              <opaque value="false"/>
+              <preferredSize width="395" height="100"/>
+              <requestFocusEnabled value="false"/>
+              <verifyInputWhenFocusTarget value="false"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+          <component id="10f50" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16777216"/>
+              <columns value="0"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="false"/>
+              <foreground color="-266"/>
+              <preferredSize width="30" height="30"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+          </component>
+          <component id="90ce7" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Submit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6c128" binding="ResourcePanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1f5d0" class="javax.swing.JButton" binding="Save">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <component id="a9177" class="javax.swing.JButton" binding="Load">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Load"/>
+            </properties>
+          </component>
+          <component id="ad715" class="javax.swing.JButton" binding="MainMenu">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <text value="MainMenu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

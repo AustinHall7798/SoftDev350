@@ -4,6 +4,7 @@ Author: Steven Zuelke
  */
 
 import QuestionTypes.Question;
+import com.sun.tools.javadoc.Start;
 import javafx.geometry.Point2D;
 
 import java.io.Serializable;
@@ -13,14 +14,14 @@ import java.util.Scanner;
 
 public class Maze implements Serializable {
 
-    Room[][] Rooms;
+    static Room[][] Rooms;
     DataAccess DataAccess;
-    private int lockedRoomsCount = 0;
-    private int correctAnswersCount = 0;
+    private static int lockedRoomsCount = 0;
+    private static int correctAnswersCount = 0;
 
     //Constructor
 
-    public Maze(){
+    public Maze() {
 
         Rooms = new Room[4][4];
         DataAccess = new DataAccess();
@@ -30,32 +31,35 @@ public class Maze implements Serializable {
 
     //Method to ask the player the question
 
-    private boolean AskQuestion(int direction){
+    public static void AskQuestion(int direction, GameScreenGUI gameScreenGUI) {
 
-        boolean correct = false;
-        String input = "";
+        String answers = "";
         Point2D currentRoom = GetRoom();
         Question question = Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].GetQuestion(direction);
 
-        System.out.println(question.GetTitle());
-        if(question.GetAnswers().length == 4){
+        answers += question.GetTitle() + "\n";
 
-            System.out.println("Answers:");
-            for(int i = 0; i < question.GetAnswers().length; i++){
+        if (question.GetAnswers().length == 4) {
+
+            for (int i = 0; i < question.GetAnswers().length; i++) {
 
                 System.out.println(question.GetAnswers()[i]);
+                answers += question.GetAnswers()[i] + "\n";
 
-            }//end for i
-
+            }//end for i\
         }//end if answers > 0
+        gameScreenGUI.setQuestionArea(answers);
+    }
 
-        input = (new Scanner(System.in)).nextLine();
+    public static boolean getAnswer(String input, int direction) {
+        boolean correct = false;
+        Point2D currentRoom = GetRoom();
+
         correct = Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].GetQuestion(direction).CheckCorrect(input);
-        if(correct) {
+        if (correct) {
             System.out.println("Correct!");
             correctAnswersCount++;
-        }
-        else {
+        } else {
             System.out.println("Incorrect!");
             LockDoor(direction);
             lockedRoomsCount++;
@@ -66,10 +70,11 @@ public class Maze implements Serializable {
 
 
 
+
     //Method to try and move the player to a new room
     //Index parameter at 0 is UP and increments Clockwise
 
-    public Boolean ChangeRooms(int index){
+    public static Boolean ChangeRooms(int index, boolean correctAnswer){
 
         Boolean moved = true;
         Point2D currentRoom = GetRoom();
@@ -84,22 +89,22 @@ public class Maze implements Serializable {
 
         switch(index){
             case 0:
-                if(!Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].getTopLocked() && AskQuestion(0)) {
+                if(correctAnswer) {
                     Rooms[(int) currentRoom.getX()][(int) currentRoom.getY() - 1].SetOccupied(true);
                 } else return false;
                 break;
             case 1:
-                if(!Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].getRightLocked() && AskQuestion(1)) {
+                if(correctAnswer) {
                     Rooms[(int) currentRoom.getX() + 1][(int) currentRoom.getY()].SetOccupied(true);
                 } else return false;
                 break;
             case 2:
-                if(!Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].getBottomLocked() && AskQuestion(2)) {
+                if(correctAnswer) {
                     Rooms[(int) currentRoom.getX()][(int) currentRoom.getY() + 1].SetOccupied(true);
                 } else return false;
                 break;
             case 3:
-                if(!Rooms[(int) currentRoom.getX()][(int) currentRoom.getY()].getLeftLocked() && AskQuestion(3)) {
+                if(correctAnswer) {
                     Rooms[(int) currentRoom.getX() - 1][(int) currentRoom.getY()].SetOccupied(true);
                 } else return false;
                 break;
@@ -114,7 +119,7 @@ public class Maze implements Serializable {
     //Recursively exhaust every path, and if no possible path contains the end,
     //then you lost and returns true
 
-    public boolean CheckLoss(int r, int c, ArrayList<Point2D> previousRooms){
+    public static boolean CheckLoss(int r, int c, ArrayList<Point2D> previousRooms){
 
         boolean loss = false;
 
@@ -168,7 +173,7 @@ public class Maze implements Serializable {
 
     //Method to see if the character has won the game after any move
 
-    public boolean CheckWin(){
+    public static boolean CheckWin(){
 
         Boolean won = false;
         if(Rooms[Rooms.length - 1][Rooms[0].length - 1].GetOccupied()) won = true;
@@ -262,7 +267,7 @@ public class Maze implements Serializable {
 
     //Method to return the current room of the player with Point2D
 
-    public Point2D GetRoom(){
+    public static Point2D GetRoom(){
 
         Point2D currentRoom = new Point2D(0, 0);
 
@@ -285,7 +290,7 @@ public class Maze implements Serializable {
     }
 
     //Method to lock the door in the direction that an incorrect answer was provided
-    private void LockDoor(int direction) {
+    private static void LockDoor(int direction) {
         Point2D currentRoom = GetRoom();
         if(direction == 0) {
 
